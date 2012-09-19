@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPProxy", "UDPProxy\UDPProxy.vcproj", "{0E7C2A1F-9553-4D3D-942C-076796781127}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPProxyTest", "..\test\UDPProxyTest\UDPProxyTest.vcproj", "{65FB58BE-EC43-4E0A-A174-65955E011384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7C2A1F-9553-4D3D-942C-076796781127}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E7C2A1F-9553-4D3D-942C-076796781127}.Debug|Win32.Build.0 = Debug|Win32
+		{0E7C2A1F-9553-4D3D-942C-076796781127}.Release|Win32.ActiveCfg = Release|Win32
+		{0E7C2A1F-9553-4D3D-942C-076796781127}.Release|Win32.Build.0 = Release|Win32
+		{65FB58BE-EC43-4E0A-A174-65955E011384}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65FB58BE-EC43-4E0A-A174-65955E011384}.Debug|Win32.Build.0 = Debug|Win32
+		{65FB58BE-EC43-4E0A-A174-65955E011384}.Release|Win32.ActiveCfg = Release|Win32
+		{65FB58BE-EC43-4E0A-A174-65955E011384}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

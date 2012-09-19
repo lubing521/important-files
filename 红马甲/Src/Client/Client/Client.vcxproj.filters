@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{95555c2b-1402-4ace-a6c0-0af55cd1b8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Http">
+      <UniqueIdentifier>{cdf4aa49-a346-45ee-88dd-11fc94654b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI">
+      <UniqueIdentifier>{b54bc67f-0e9a-43d0-ac38-6214601d7da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI\Skin">
+      <UniqueIdentifier>{46c5a29a-93b8-4ef0-9cb6-93a6ebd42b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI\Skin\CustomControl">
+      <UniqueIdentifier>{286881d8-1aa6-4d6e-a363-4a2c40b765aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI\WTL">
+      <UniqueIdentifier>{7a105edc-3353-4238-a32a-5dd1179e24dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI\Frame">
+      <UniqueIdentifier>{11e7df1e-e9ea-4a60-8697-4e58c7cda0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Utility">
+      <UniqueIdentifier>{a421e575-4fd4-4502-8edc-6f744c202cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Extend STL">
+      <UniqueIdentifier>{162752f6-e2ed-43a3-811b-792bb95ac36a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Client.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Client.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Load_BK.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Load_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Load_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Load_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Reset_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Reset_Hoverl.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\Reset_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Min_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Max_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Max_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Max_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Min_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Min_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Cancel_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Cancel_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Cancel_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Consume_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Consume_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\Consume_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\BK.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\UnknownPsw_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\CheckBox_Check.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\CheckBox_UnCheck.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Load\UnknownPsw_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index6_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index0_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index0_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index0_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index1_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index1_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index1_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index2_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index2_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index2_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index3_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index3_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index3_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index4_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index4_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index4_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index5_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index5_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index5_Normal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index6_Click.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\Index6_Hover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Main\BK.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Modify\BK.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomButton.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomCheckBox.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomComboBox.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomEdit.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomImage.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomLabel.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomRadio.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\SkinRadioBox.h">
+      <Filter>include\UI\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\SkinButton.h">
+      <Filter>include\UI\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\SkinCheckBox.h">
+      <Filter>include\UI\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\SkinImage.h">
+      <Filter>include\UI\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\SkinLabel.h">
+      <Filter>include\UI\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\ImageHelpers.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\GdiPlusHelper.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\IconHelper.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlapp.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlcrack.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlctrls.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlctrlw.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlctrlx.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlddx.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atldlgs.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atldwm.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlfind.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlframe.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlgdi.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlmisc.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlprint.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlres.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlresce.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlribbon.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlscrl.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlsplit.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atltheme.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atltrayicon.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atluser.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlwince.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlwinmisc.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\WTL\atlwinx.h">
+      <Filter>include\UI\WTL</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Frame\NonFrameDlg.h">
+      <Filter>include\UI\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Http\HttpHelper.h">
+      <Filter>include\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Utility\SmartHandle.hpp">
+      <Filter>include\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Extend STL\UnicodeStl.h">
+      <Filter>include\Extend STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Extend STL\StringAlgorithm.h">
+      <Filter>include\Extend STL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomHtml.h">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomButton.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomCheckBox.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomComboBox.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomEdit.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomImage.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomLabel.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomRadio.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\SkinButton.cpp">
+      <Filter>include\UI\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\SkinCheckBox.cpp">
+      <Filter>include\UI\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\SkinImage.cpp">
+      <Filter>include\UI\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\SkinLabel.cpp">
+      <Filter>include\UI\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\SkinRadioBox.cpp">
+      <Filter>include\UI\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\GdiPlusHelper.cpp">
+      <Filter>include\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\ImageHelpers.cpp">
+      <Filter>include\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Frame\NonFrameDlg.cpp">
+      <Filter>include\UI\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomHtml.cpp">
+      <Filter>include\UI\Skin\CustomControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

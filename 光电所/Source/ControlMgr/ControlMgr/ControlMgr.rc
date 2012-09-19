@@ -1,0 +1,296 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ControlMgr"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "ControlMgr，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_CONTROLMGR_DIALOG DIALOGEX 0, 0, 641, 400
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ControlMgr"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "状态监控",IDC_BUTTON_MONITOR_STATUS,281,39,40,12
+    PUSHBUTTON      "任务管理",IDC_BUTTON_TASK_MANAGER,322,39,40,12
+    PUSHBUTTON      "操作日志",IDC_BUTTON_OPERATE_LOG,362,39,40,12
+    LTEXT           "",IDC_STATIC_WINDOW,0,70,641,329
+END
+
+IDD_DIALOG_STATUS_MONITOR DIALOGEX 0, 0, 494, 266
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "IP:",IDC_STATIC_TASK_MONITOR_PROXY_IP,83,32,10,8
+    LTEXT           "端口:",IDC_STATIC_TASK_MONITOR_PROXY_PORT,83,49,20,8
+    LTEXT           "状态:",IDC_STATIC_TASK_MONITOR_PROXY_STATUS,83,65,20,8
+    LTEXT           "",IDC_STATIC_UDPPROXY_IP,118,31,67,11
+    LTEXT           "",IDC_STATIC_UDPPROXY_PORT,118,47,67,11
+    LTEXT           "",IDC_STATIC_UDPPROXY_STATUS,118,64,67,11
+    LTEXT           "IP:",IDC_STATIC_TASK_MONITOR_SENDSVR_IP,306,30,10,8
+    LTEXT           "端口:",IDC_STATIC_TASK_MONITOR_SENDSVR_PORT,306,46,20,8
+    LTEXT           "状态:",IDC_STATIC_TASK_MONITOR_SENDSVR_STATUS,306,62,20,8
+    LTEXT           "",IDC_STATIC_SENDSVR_IP,342,28,67,11
+    LTEXT           "",IDC_STATIC_SENDSVR_PORT,342,44,67,11
+    LTEXT           "",IDC_STATIC_SENDSVR_STATUS,342,62,67,11
+    LTEXT           "IP:",IDC_STATIC_TASK_MONITOR_RECVSVR_IP,85,175,10,8
+    LTEXT           "端口:",IDC_STATIC_TASK_MONITOR_RECVSVR_PORT,85,195,20,8
+    LTEXT           "状态:",IDC_STATIC_TASK_MONITOR_RECVSVR_STATUS,85,215,20,8
+    LTEXT           "",IDC_STATIC_RECVSVR_IP,120,175,67,11
+    LTEXT           "",IDC_STATIC_RECVSVR_PORT,120,195,67,11
+    LTEXT           "",IDC_STATIC_RECVSVR_STATUS,120,215,67,11
+    CONTROL         "",IDC_LIST_SENDSVR_CLIENT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,304,164,168,87
+    PUSHBUTTON      "启动",IDC_BUTTON_UDPPROXY_START,83,82,36,13
+    PUSHBUTTON      "停止",IDC_BUTTON_UDPPROXY_STOP,128,82,36,13
+    PUSHBUTTON      "启动",IDC_BUTTON_SENDSVR_START,306,82,36,13
+    PUSHBUTTON      "停止",IDC_BUTTON_SENDSVR_STOP,350,82,36,13
+    PUSHBUTTON      "启动",IDC_BUTTON_RECVSVR_START,84,236,36,13
+    PUSHBUTTON      "停止",IDC_BUTTON_RECVSVR_STOP,129,236,36,13
+END
+
+IDD_DIALOG_TASK_MANAGER DIALOGEX 0, 0, 467, 266
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "任务号",IDC_STATIC_TASK_MGR_ID,293,59,25,8
+    EDITTEXT        IDC_EDIT_TASK_MANAGER_TASK_ID,323,56,53,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "搜索",IDC_BUTTON_TASK_MANAGER_SEARCH,410,57,34,13
+    CONTROL         "",IDC_LIST_TASK_MANAGER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,70,76,307,176
+    PUSHBUTTON      "编辑",IDC_BUTTON_TASK_MGR_EDIT,410,139,53,15
+    PUSHBUTTON      "开始回放",IDC_BUTTON_TASK_MGR_PLAY,410,169,53,15
+    PUSHBUTTON      "刷新",IDC_BUTTON_TASK_MGR_REFRESH,411,236,36,15
+    LTEXT           "开始时间",IDC_STATIC_TASK_MGR_START_TIME,70,59,33,8
+    LTEXT           "结束时间",IDC_STATIC_TASK_MGR_STOP_TIME,181,59,33,8
+    CONTROL         "",IDC_DATETIMEPICKER_TASK_MGR_START,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,106,56,71,13
+    CONTROL         "",IDC_DATETIMEPICKER_TASK_MGR_STOP,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,216,56,71,13
+    PUSHBUTTON      "导出到EXCEL",IDC_BUTTON_TASK_MGR_EXPORT,410,105,53,17,BS_MULTILINE
+END
+
+IDD_DIALOG_TASK_LOG DIALOGEX 0, 0, 480, 266
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "搜索",IDC_BUTTON_TASK_LOG_SEARCH,296,56,34,13
+    LTEXT           "开始时间",IDC_STATIC_TASK_LOG_STARTTIME,70,59,33,8
+    LTEXT           "结束时间",IDC_STATIC_TASK_LOG_STOP_TIME,181,59,33,8
+    CONTROL         "",IDC_DATETIMEPICKER_TASK_LOG_START,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,106,56,71,13
+    CONTROL         "",IDC_DATETIMEPICKER_TASK_LOG_STOP,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,216,56,71,13
+    CONTROL         "",IDC_LIST_TASK_LOG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,68,74,307,176
+    PUSHBUTTON      "刷新",IDC_BUTTON_TASK_LOG_REFRESH,411,236,36,15
+    PUSHBUTTON      "导出到EXCEL",IDC_BUTTON_TASK_LOG_EXPORT,410,105,53,17,BS_MULTILINE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ControlMgr.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ControlMgr.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_CONTROLMGR_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DIALOG_STATUS_MONITOR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 472
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_DIALOG_TASK_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+    END
+
+    IDD_DIALOG_TASK_LOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 459
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ControlMgr(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ControlMgr.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ControlMgr.ico"
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ControlMgr.rc2"  // ·? Microsoft Visual C++ ±à?-μ?×ê?′
+#include "l.CHS\afxres.rc"      // ±ê×?×é?t
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

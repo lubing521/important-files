@@ -1,0 +1,18 @@
+// ViewClient.idl : ViewClient 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(ViewClient.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(8FDC6036-EBDF-4639-B221-3510A39B937D),
+	version(1.0),
+	helpstring("ViewClient 1.0 类型库")
+]
+library ViewClientLib
+{
+	importlib("stdole2.tlb");
+};

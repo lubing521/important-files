@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89AAB292-F0F1-411F-8ABD-1D7D8840BC2C}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Client.ico" />
+    <None Include="res\Client.rc2" />
+    <None Include="res\Load\BK.png" />
+    <None Include="res\Load\CheckBox_Check.png" />
+    <None Include="res\Load\CheckBox_UnCheck.png" />
+    <None Include="res\Load\Load_BK.png" />
+    <None Include="res\Load\Load_Click.png" />
+    <None Include="res\Load\Load_Hover.png" />
+    <None Include="res\Load\Load_Normal.png" />
+    <None Include="res\Load\Reset_Click.png" />
+    <None Include="res\Load\Reset_Hoverl.png" />
+    <None Include="res\Load\Reset_Normal.png" />
+    <None Include="res\Load\UnknownPsw_Hover.png" />
+    <None Include="res\Load\UnknownPsw_Normal.png" />
+    <None Include="res\Main\BK.png" />
+    <None Include="res\Main\Index0_Click.png" />
+    <None Include="res\Main\Index0_Hover.png" />
+    <None Include="res\Main\Index0_Normal.png" />
+    <None Include="res\Main\Index1_Click.png" />
+    <None Include="res\Main\Index1_Hover.png" />
+    <None Include="res\Main\Index1_Normal.png" />
+    <None Include="res\Main\Index2_Click.png" />
+    <None Include="res\Main\Index2_Hover.png" />
+    <None Include="res\Main\Index2_Normal.png" />
+    <None Include="res\Main\Index3_Click.png" />
+    <None Include="res\Main\Index3_Hover.png" />
+    <None Include="res\Main\Index3_Normal.png" />
+    <None Include="res\Main\Index4_Click.png" />
+    <None Include="res\Main\Index4_Hover.png" />
+    <None Include="res\Main\Index4_Normal.png" />
+    <None Include="res\Main\Index5_Click.png" />
+    <None Include="res\Main\Index5_Hover.png" />
+    <None Include="res\Main\Index5_Normal.png" />
+    <None Include="res\Main\Index6_Click.png" />
+    <None Include="res\Main\Index6_Hover.png" />
+    <None Include="res\Main\Index6_Normal.png" />
+    <None Include="res\Max_Click.png" />
+    <None Include="res\Max_Hover.png" />
+    <None Include="res\Max_Normal.png" />
+    <None Include="res\Min_Click.png" />
+    <None Include="res\Min_Hover.png" />
+    <None Include="res\Min_Normal.png" />
+    <None Include="res\Modify\BK.png" />
+    <None Include="res\Modify\Cancel_Click.png" />
+    <None Include="res\Modify\Cancel_Hover.png" />
+    <None Include="res\Modify\Cancel_Normal.png" />
+    <None Include="res\Modify\Consume_Click.png" />
+    <None Include="res\Modify\Consume_Hover.png" />
+    <None Include="res\Modify\Consume_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Extend STL\StringAlgorithm.h" />
+    <ClInclude Include="..\..\include\Extend STL\UnicodeStl.h" />
+    <ClInclude Include="..\..\include\Http\HttpHelper.h" />
+    <ClInclude Include="..\..\include\UI\Frame\NonFrameDlg.h" />
+    <ClInclude Include="..\..\include\UI\GdiPlusHelper.h" />
+    <ClInclude Include="..\..\include\UI\IconHelper.h" />
+    <ClInclude Include="..\..\include\UI\ImageHelpers.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomButton.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomCheckBox.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomComboBox.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomEdit.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomHtml.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomImage.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomLabel.h" />
+    <ClInclude Include="..\..\include\UI\Skin\CustomControl\CustomRadio.h" />
+    <ClInclude Include="..\..\include\UI\Skin\SkinButton.h" />
+    <ClInclude Include="..\..\include\UI\Skin\SkinCheckBox.h" />
+    <ClInclude Include="..\..\include\UI\Skin\SkinImage.h" />
+    <ClInclude Include="..\..\include\UI\Skin\SkinLabel.h" />
+    <ClInclude Include="..\..\include\UI\Skin\SkinRadioBox.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlapp.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlcrack.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlctrls.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlctrlw.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlctrlx.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlddx.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atldlgs.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atldwm.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlfind.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlframe.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlgdi.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlmisc.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlprint.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlres.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlresce.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlribbon.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlscrl.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlsplit.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atltheme.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atltrayicon.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atluser.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlwince.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlwinmisc.h" />
+    <ClInclude Include="..\..\include\UI\WTL\atlwinx.h" />
+    <ClInclude Include="..\..\include\Utility\SmartHandle.hpp" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientDlg.h" />
+    <ClInclude Include="DataMgr.h" />
+    <ClInclude Include="DlgLoad.h" />
+    <ClInclude Include="DlgModify.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\UI\Frame\NonFrameDlg.cpp" />
+    <ClCompile Include="..\..\include\UI\GdiPlusHelper.cpp" />
+    <ClCompile Include="..\..\include\UI\ImageHelpers.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomButton.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomCheckBox.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomComboBox.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomEdit.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomHtml.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomImage.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomLabel.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\CustomControl\CustomRadio.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\SkinButton.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\SkinCheckBox.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\SkinImage.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\SkinLabel.cpp" />
+    <ClCompile Include="..\..\include\UI\Skin\SkinRadioBox.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientDlg.cpp" />
+    <ClCompile Include="DataMgr.cpp" />
+    <ClCompile Include="DlgLoad.cpp" />
+    <ClCompile Include="DlgModify.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Client.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

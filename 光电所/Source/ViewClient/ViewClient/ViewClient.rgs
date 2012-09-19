@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'ViewClient'
+				'ViewClient.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

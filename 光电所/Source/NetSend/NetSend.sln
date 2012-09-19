@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetSend", "NetSend\NetSend.vcproj", "{51D6B299-6E25-40B5-A2FF-3848C606FBBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetSendTest", "..\test\NetSendTest\NetSendTest.vcproj", "{BFD1C505-F772-470A-9762-2156967103BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D6B299-6E25-40B5-A2FF-3848C606FBBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51D6B299-6E25-40B5-A2FF-3848C606FBBF}.Debug|Win32.Build.0 = Debug|Win32
+		{51D6B299-6E25-40B5-A2FF-3848C606FBBF}.Release|Win32.ActiveCfg = Release|Win32
+		{51D6B299-6E25-40B5-A2FF-3848C606FBBF}.Release|Win32.Build.0 = Release|Win32
+		{BFD1C505-F772-470A-9762-2156967103BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFD1C505-F772-470A-9762-2156967103BC}.Debug|Win32.Build.0 = Debug|Win32
+		{BFD1C505-F772-470A-9762-2156967103BC}.Release|Win32.ActiveCfg = Release|Win32
+		{BFD1C505-F772-470A-9762-2156967103BC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

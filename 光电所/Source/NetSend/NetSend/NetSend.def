@@ -1,0 +1,4 @@
+LIBRARY	"NetSend"
+EXPORTS
+	Send_I			@1
+	Send_J			@2
