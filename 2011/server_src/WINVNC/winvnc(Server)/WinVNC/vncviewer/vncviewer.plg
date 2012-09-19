@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vncviewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/vncviewer.res" /i "res" /d "_DEBUG" "C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\res\vncviewer.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "omnithread" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "__NT__" /D "_WINSTATIC" /D "__WIN32__" /FR"Debug/" /Fp"Debug/vncviewer.pch" /YX"stdhdrs.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\AboutBox.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\AuthDialog.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnection.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionClipboard.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionCopyRect.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionCoRRE.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionFile.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionFullScreen.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionHextile.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionRaw.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\ClientConnectionRRE.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\d3des.c"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\Daemon.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\Exception.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\Flasher.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\KeyMap.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\Log.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\MRU.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\SessionDialog.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\vncauth.c"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\VNCOptions.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\vncviewer.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\VNCviewerApp.cpp"
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\VNCviewerApp32.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "omnithread" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "__NT__" /D "_WINSTATIC" /D "__WIN32__" /FR"Debug/" /Fp"Debug/vncviewer.pch" /Yc"stdhdrs.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Downloads\vnc-3.3.3r9_winsrc\vnc_winsrc\vncviewer\stdhdrs.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+ole32.lib oleaut32.lib winmm.lib omnithread.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib uuid.lib wsock32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/vncviewer.pdb" /map:"Debug/vncviewer.map" /debug /machine:I386 /out:"Debug/vncviewer.exe" /pdbtype:sept /libpath:"./omnithread/Debug" 
+".\Debug\AboutBox.obj"
+".\Debug\AuthDialog.obj"
+".\Debug\ClientConnection.obj"
+".\Debug\ClientConnectionClipboard.obj"
+".\Debug\ClientConnectionCopyRect.obj"
+".\Debug\ClientConnectionCoRRE.obj"
+".\Debug\ClientConnectionFile.obj"
+".\Debug\ClientConnectionFullScreen.obj"
+".\Debug\ClientConnectionHextile.obj"
+".\Debug\ClientConnectionRaw.obj"
+".\Debug\ClientConnectionRRE.obj"
+".\Debug\d3des.obj"
+".\Debug\Daemon.obj"
+".\Debug\Exception.obj"
+".\Debug\Flasher.obj"
+".\Debug\KeyMap.obj"
+".\Debug\Log.obj"
+".\Debug\MRU.obj"
+".\Debug\SessionDialog.obj"
+".\Debug\stdhdrs.obj"
+".\Debug\vncauth.obj"
+".\Debug\VNCOptions.obj"
+".\Debug\vncviewer.obj"
+".\Debug\VNCviewerApp.obj"
+".\Debug\VNCviewerApp32.obj"
+".\Debug\vncviewer.res"
+".\omnithread\Debug\omnithread.lib"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdhdrs.cpp
+Compiling...
+AboutBox.cpp
+AuthDialog.cpp
+ClientConnection.cpp
+ClientConnectionClipboard.cpp
+ClientConnectionCopyRect.cpp
+ClientConnectionCoRRE.cpp
+ClientConnectionFile.cpp
+ClientConnectionFullScreen.cpp
+ClientConnectionHextile.cpp
+ClientConnectionRaw.cpp
+ClientConnectionRRE.cpp
+d3des.c
+Daemon.cpp
+Exception.cpp
+Flasher.cpp
+KeyMap.cpp
+Log.cpp
+MRU.cpp
+SessionDialog.cpp
+vncauth.c
+VNCOptions.cpp
+vncviewer.cpp
+VNCviewerApp.cpp
+VNCviewerApp32.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+vncviewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

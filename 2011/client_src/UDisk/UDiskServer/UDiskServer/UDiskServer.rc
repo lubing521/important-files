@@ -1,0 +1,245 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\UDiskServer.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\plug_usb-32.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 UDiskServer"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "UDiskServer，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_UDISKSERVER_DIALOG DIALOGEX 0, 0, 295, 243
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "I8UDiskServer"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "基本设置",IDC_STATIC,7,7,153,87
+    GROUPBOX        "帐号注册",IDC_STATIC,163,7,123,123
+    GROUPBOX        "公共资源区",IDC_STATIC,163,132,123,52
+    LTEXT           "客户端显示标题:",IDC_STATIC,10,22,51,8
+    LTEXT           "存档路径:",IDC_STATIC,30,48,31,8
+    LTEXT           "允许用户使用:",IDC_STATIC,17,76,44,8
+    EDITTEXT        EDT_TITLE,69,20,85,13,ES_AUTOHSCROLL
+    EDITTEXT        EDT_SAVEPATH,69,49,75,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,146,47,12,14
+    EDITTEXT        IDC_EDIT3,69,75,31,13,ES_AUTOHSCROLL
+    LTEXT           "MB 存储空间",IDC_STATIC,104,77,40,8
+    GROUPBOX        "自定义说明",IDC_STATIC,7,98,153,86
+    CONTROL         "随系统启动",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,190,50,10
+    LTEXT           "帐号注册状态:",IDC_STATIC,169,21,44,8
+    COMBOBOX        IDC_COMBO1,222,18,58,39,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "停止注册信息:",IDC_STATIC,169,39,44,8
+    EDITTEXT        IDC_EDIT4,169,55,110,12,ES_AUTOHSCROLL
+    LTEXT           "公共资源区路径:",IDC_STATIC,166,143,51,8
+    EDITTEXT        IDC_EDIT5,169,154,96,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON2,267,153,14,14
+    CONTROL         "显示公共资源区",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,169,64,10
+    LTEXT           "删除",IDC_STATIC,169,92,15,8
+    LTEXT           "天不登录的帐号",IDC_STATIC,216,93,49,8
+    EDITTEXT        IDC_EDIT6,186,90,27,14,ES_AUTOHSCROLL
+    LTEXT           "可用空间小于",IDC_STATIC,169,113,42,8
+    EDITTEXT        IDC_EDIT7,210,110,26,14,ES_AUTOHSCROLL
+    LTEXT           "MB后停止注册",IDC_STATIC,239,113,44,8
+    PUSHBUTTON      "保存设置",IDC_BUTTON3,102,201,61,20
+    EDITTEXT        IDC_EDIT8,10,112,146,68,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "磁盘空间不足时",IDC_STATIC,169,74,49,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 10,1,0,422
+ PRODUCTVERSION 10,1,0,422
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Goyoo"
+            VALUE "FileDescription", "个人u盘服务端"
+            VALUE "FileVersion", "10, 1, 0, 422"
+            VALUE "InternalName", "UDiskServer.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "UDiskServer.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_UDISKSERVER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "显示界面",                        IDM_SHOW
+        MENUITEM "退出程序",                        IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 UDiskServer(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\UDiskServer.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

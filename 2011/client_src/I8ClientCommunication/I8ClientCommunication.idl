@@ -1,0 +1,40 @@
+// I8ClientCommunication.idl : I8ClientCommunication 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(I8ClientCommunication.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(6AFCE254-A43E-4CF5-B3BF-06C6EEB9D136),
+	dual,
+	nonextensible,
+	helpstring("IStartupClient 接口"),
+	pointer_default(unique)
+]
+interface IStartupClient : IDispatch{
+    [id(1), helpstring("运行游戏")] HRESULT RunGame([in] LONG gid, [in] VARIANT_BOOL bRunBackstage, [out,retval] VARIANT_BOOL* bResult);
+    [id(2), helpstring("运行客户端界面")] HRESULT RunClient([out,retval] VARIANT_BOOL* bResult);
+    [id(3), helpstring("检测游戏是否存在")] HRESULT IsGameExist([in] LONG gid, [out,retval] VARIANT_BOOL* bResult);
+    [id(4), helpstring("设置超时时间")] HRESULT SetTimeOut([in] LONG iTimeOut, [out,retval] VARIANT_BOOL* bResult);
+};
+[
+	uuid(64412DCA-F794-4265-A06B-121EB500EE4A),
+	version(1.0),
+	helpstring("I8ClientCommunication 1.0 类型库")
+]
+library I8ClientCommunicationLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(E450EB6E-4DD3-4EAF-99CB-A778B97B1C39),
+		helpstring("StartupClient Class")
+	]
+	coclass StartupClient
+	{
+		[default] interface IStartupClient;
+	};
+};

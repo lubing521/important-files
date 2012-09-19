@@ -1,0 +1,4 @@
+LIBRARY  "NetLayer.dll"
+EXPORTS
+	CreateIMemPool			@1	NONAME
+	CreateINetLayer			@2	NONAME

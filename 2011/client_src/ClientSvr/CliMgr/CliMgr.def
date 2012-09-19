@@ -1,0 +1,3 @@
+LIBRARY	"CliMgr"
+EXPORTS
+	CreateClientPlug		@1

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<body>
+    游戏GID<input type="text" name="GameId" value="10001">
+    等待时间<input type="text" name="TimeOut" value="5000"><p>
+    <a onclick="javascript:FindGame(GameId.value)" onmouseover="this.style.color='#ff0000';this.style.cursor='hand'" onmouseout="this.style.color='#000000'">检测游戏是否存在</a><p>
+    <a onclick="javascript:RunGame(GameId.value, false)" onmouseover="this.style.color='#ff0000';this.style.cursor='hand'" onmouseout="this.style.color='#000000'">运行游戏</a><p>
+    <a onclick="javascript:RunGame(GameId.value, true)" onmouseover="this.style.color='#ff0000';this.style.cursor='hand'" onmouseout="this.style.color='#000000'">后台运行游戏</a><p>
+    <a onclick="javascript:RunGame(0, false)" onmouseover="this.style.color='#ff0000';this.style.cursor='hand'" onmouseout="this.style.color='#000000'">显示客户端</a>
+</body>
+<script type="text/javascript">
+function FindGame(gid)
+{
+    clClient = new ActiveXObject("I8ClientCommunication.StartupClient");
+    clClient.SetTimeOut(TimeOut.value);
+    if (gid == 0)
+    {
+        result = clClient.RunClient();
+        alert(result);
+    }
+    else
+    {
+        result = clClient.IsGameExist(gid);
+        alert(result);
+    }
+}
+function RunGame(gid, bRunBackstage)
+{
+    clClient = new ActiveXObject("I8ClientCommunication.StartupClient");
+    clClient.SetTimeOut(TimeOut.value);
+    if (gid == 0)
+    {
+        result = clClient.RunClient();
+        alert(result);
+    }
+    else
+    {
+        result = clClient.RunGame(gid, bRunBackstage);
+        alert(result);
+    }
+}
+</script>
+</html>

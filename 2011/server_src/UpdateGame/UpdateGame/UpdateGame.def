@@ -1,0 +1,11 @@
+LIBRARY  "UpdateGame.dll"
+EXPORTS
+	CreateSvrPlug				@1
+	CreateClientPlug			@2
+	UG_StartUpdate				@3	NONAME
+	UG_StopUpdate				@4	NONAME
+	UG_GetUpdateStatus			@5	NONAME
+	UG_SetConnectCallBack		@6	NONAME
+	UG_PauseUpdate				@7	NONAME
+	UG_ResumeUpdate				@8	NONAME
+	

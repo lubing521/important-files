@@ -1,0 +1,5 @@
+LIBRARY "WinVNC.dll"
+
+ EXPORTS 
+       StartVNC
+		StopVNC

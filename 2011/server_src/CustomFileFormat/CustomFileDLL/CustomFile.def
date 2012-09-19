@@ -1,0 +1,13 @@
+LIBRARY	"CustomFileDLL"
+
+
+EXPORTS
+	CreateCustomFile		@1	;NONAME
+	DestroyCustomFile		@2	;NONAME
+	AddCustomFile			@3	;NONAME
+	AddCustomFile2			@4	;NONAME
+	DeleteCustomFile		@5	;NONAME
+	ModifyCustomFile		@6	;NONAME
+	ModifyCustomFile2		@7	;NONAME
+	GetFileData				@8	;NONAME
+	GetAllFileData			@9	;NONAME

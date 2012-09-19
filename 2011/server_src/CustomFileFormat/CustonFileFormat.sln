@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustonFileFormat", "CustonFileFormat\CustonFileFormat.vcproj", "{04DDE21A-7A3E-4CD4-B9F8-5C90031AAE50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomFileDLL", "CustomFileDLL\CustomFileDLL.vcproj", "{17662C38-4E98-48B6-AF71-B85B9D83FEDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDLL", "TestDLL\TestDLL.vcproj", "{56539076-A757-4E12-8B9F-6B13BB83A035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DDE21A-7A3E-4CD4-B9F8-5C90031AAE50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DDE21A-7A3E-4CD4-B9F8-5C90031AAE50}.Debug|Win32.Build.0 = Debug|Win32
+		{04DDE21A-7A3E-4CD4-B9F8-5C90031AAE50}.Release|Win32.ActiveCfg = Release|Win32
+		{04DDE21A-7A3E-4CD4-B9F8-5C90031AAE50}.Release|Win32.Build.0 = Release|Win32
+		{17662C38-4E98-48B6-AF71-B85B9D83FEDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17662C38-4E98-48B6-AF71-B85B9D83FEDF}.Debug|Win32.Build.0 = Debug|Win32
+		{17662C38-4E98-48B6-AF71-B85B9D83FEDF}.Release|Win32.ActiveCfg = Release|Win32
+		{17662C38-4E98-48B6-AF71-B85B9D83FEDF}.Release|Win32.Build.0 = Release|Win32
+		{56539076-A757-4E12-8B9F-6B13BB83A035}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56539076-A757-4E12-8B9F-6B13BB83A035}.Debug|Win32.Build.0 = Debug|Win32
+		{56539076-A757-4E12-8B9F-6B13BB83A035}.Release|Win32.ActiveCfg = Release|Win32
+		{56539076-A757-4E12-8B9F-6B13BB83A035}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

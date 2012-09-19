@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CliMgr", "CliMgr.vcproj", "{2703E74E-8E29-49E5-8E85-ACB453C1A784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2703E74E-8E29-49E5-8E85-ACB453C1A784}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2703E74E-8E29-49E5-8E85-ACB453C1A784}.Debug|Win32.Build.0 = Debug|Win32
+		{2703E74E-8E29-49E5-8E85-ACB453C1A784}.Release|Win32.ActiveCfg = Release|Win32
+		{2703E74E-8E29-49E5-8E85-ACB453C1A784}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

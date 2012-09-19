@@ -1,0 +1,217 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DeskLocker.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINFRAME DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PASSWORD,15,31,40,14,ES_PASSWORD | ES_AUTOHSCROLL | NOT WS_BORDER
+    PUSHBUTTON      "",IDC_UNLOCKER,81,29,20,20,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_PLUS,109,30,20,20,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_DECREASE,138,31,20,20,0,WS_EX_TRANSPARENT
+END
+
+IDD_DLG_LOGIN DIALOGEX 0, 0, 255, 139
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_CLOSE,200,3,38,14
+    PUSHBUTTON      "",IDOK,121,106,50,14
+    PUSHBUTTON      "",IDCANCEL,187,105,50,14
+    EDITTEXT        IDC_PASSWORD,86,33,40,14,ES_PASSWORD | ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_PASSWORD2,95,42,40,14,ES_PASSWORD | ES_AUTOHSCROLL | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 10,1,0,329
+ PRODUCTVERSION 10,1,0,329
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "locker"
+            VALUE "FileDescription", "locker"
+            VALUE "FileVersion", "10, 1, 0, 329"
+            VALUE "InternalName", "locker"
+            VALUE "LegalCopyright", "locker"
+            VALUE "OriginalFilename", "locker"
+            VALUE "ProductName", "locker"
+            VALUE "ProductVersion", "10, 1, 0, 329"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINFRAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\wxSLock.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_LOGO                PNG                     "res\\logo.png"
+IDB_TEXT                PNG                     "res\\text.png"
+IDB_LOCK                PNG                     "res\\lock.png"
+IDB_TOOLBAR             PNG                     "res\\toolbar.png"
+IDB_LOGIN               PNG                     "res\\login.png"
+IDB_CANCEL              PNG                     "res\\cancel.png"
+IDB_CLOSE1              PNG                     "res\\close1.png"
+IDB_CLOSE2              PNG                     "res\\close2.png"
+IDB_CLOSE               PNG                     "res\\close.png"
+IDB_OK                  PNG                     "res\\ok.png"
+IDB_UNLOCK              PNG                     "res\\unlock.png"
+IDB_PLUS1               PNG                     "res\\plus1.png"
+IDB_PLUS2               PNG                     "res\\plus2.png"
+IDB_PLUS                PNG                     "res\\plus.png"
+IDB_UNLOCK1             PNG                     "res\\unlock1.png"
+IDB_UNLOCK2             PNG                     "res\\unlock2.png"
+IDB_DECREASE            PNG                     "res\\Decrease.png"
+IDB_DECREASE1           PNG                     "res\\Decrease1.png"
+IDB_DECREASE2           PNG                     "res\\Decrease2.png"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DeskLocker.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

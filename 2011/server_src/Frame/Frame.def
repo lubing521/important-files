@@ -1,0 +1,8 @@
+LIBRARY  "Frame.dll"
+EXPORTS
+	CreateIMemPool			@1	NONAME
+	CreateINetLayer			@2	NONAME
+ 	CreateDatabase			@3	NONAME
+	CreateSysOpt			@4	NONAME
+	CreateLogger			@5	NONAME
+	

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Console10", "Console.vcproj", "{934C3D7A-1A39-4590-BA7A-276894AB216E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{120836ED-D850-4762-B795-AEEED78D4201}"
+	ProjectSection(SolutionItems) = preProject
+		Console10.vsmdi = Console10.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Console10.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{934C3D7A-1A39-4590-BA7A-276894AB216E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{934C3D7A-1A39-4590-BA7A-276894AB216E}.Debug|Win32.Build.0 = Debug|Win32
+		{934C3D7A-1A39-4590-BA7A-276894AB216E}.Release|Win32.ActiveCfg = Release|Win32
+		{934C3D7A-1A39-4590-BA7A-276894AB216E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

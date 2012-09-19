@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "I8VDiskSvr", "I8VDiskSvr.vcproj", "{1A52E39E-83D2-42D5-AB37-6901830F58E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D} = {C25DAE81-F91D-47C9-A810-000D61A0AE9D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualDisk", "..\VirtualDisk\VirtualDisk.vcproj", "{C25DAE81-F91D-47C9-A810-000D61A0AE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A52E39E-83D2-42D5-AB37-6901830F58E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A52E39E-83D2-42D5-AB37-6901830F58E1}.Debug|Win32.Build.0 = Debug|Win32
+		{1A52E39E-83D2-42D5-AB37-6901830F58E1}.Release|Win32.ActiveCfg = Release|Win32
+		{1A52E39E-83D2-42D5-AB37-6901830F58E1}.Release|Win32.Build.0 = Release|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Debug|Win32.Build.0 = Debug|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Release|Win32.ActiveCfg = Release|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

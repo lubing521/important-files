@@ -1,0 +1,340 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\UDiskClient.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON                    "res\\plug_usb-32.ico"
+IDI_ICON1               ICON                    "res\\9.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 UDiskClient"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "UDiskClient，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_UDISKCLIENT_DIALOG DIALOGEX 0, 0, 330, 269
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UDiskClient"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,17,316,160,WS_EX_ACCEPTFILES
+    GROUPBOX        "存储区",IDC_STATIC,7,7,316,237
+    GROUPBOX        "空间使用信息",IDC_STATIC,7,192,89,52
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,254,198,16,39
+    LTEXT           "总共容量:",IDC_STATIC,12,203,31,8
+    LTEXT           "已用空间:",IDC_STATIC,12,215,31,8
+    LTEXT           "可用空间:",IDC_STATIC,12,227,31,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,153,253,170,9
+    PUSHBUTTON      "修改密码",IDC_BUTTON2,110,221,40,14
+    LTEXT           "",IDC_STATUSTEXT,119,251,30,8
+    LTEXT           "",IDC_STATIC1,46,204,47,8
+    LTEXT           "",IDC_STATIC2,46,215,47,8
+    LTEXT           "",IDC_STATIC3,46,227,46,8
+    PUSHBUTTON      "使用说明",BTN_INFO,110,199,40,14
+    LTEXT           "上传文件在个人存储区内点右键",IDC_STATIC,9,251,102,8
+    CONTROL         "自定义1",IDC_Tab,"CCustomTabCtrl",WS_TABSTOP,7,176,316,11
+    CONTROL         "",IDC_LIST3,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,185,194,17,41
+END
+
+IDD_LOGDialog DIALOGEX 0, 0, 223, 117
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登  录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,93,95,50,14
+    PUSHBUTTON      "取消",IDCANCEL,163,95,50,14
+    GROUPBOX        "",IDC_STATIC,7,7,209,77
+    EDITTEXT        IDC_EDIT1,70,21,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,69,54,88,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户名:",IDC_STATIC,37,25,28,8
+    LTEXT           "密码:",IDC_STATIC,39,57,20,8
+    PUSHBUTTON      "注   册",BTN_Register,163,20,42,14,BS_FLAT
+END
+
+IDD_RigDlg DIALOGEX 0, 0, 183, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注    册"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "注册",IDOK,44,138,50,14
+    PUSHBUTTON      "取消",IDCANCEL,111,138,50,14
+    EDITTEXT        IDC_EDIT1,53,27,111,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,52,58,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,52,95,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户名",IDC_STATIC,19,30,25,8
+    LTEXT           "密码",IDC_STATIC,19,61,17,8
+    LTEXT           "确认密码",IDC_STATIC,13,99,33,8
+END
+
+IDD_ReSetDlg DIALOGEX 0, 0, 176, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "修改",IDOK,28,124,50,14
+    PUSHBUTTON      "取消",IDCANCEL,98,124,50,14
+    EDITTEXT        IDC_EDIT1,59,25,91,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,59,54,91,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,59,85,91,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "旧密码",IDC_STATIC,26,28,25,8
+    LTEXT           "新密码",IDC_STATIC,26,59,25,8
+    LTEXT           "确认密码",IDC_STATIC,17,90,33,8
+END
+
+IDD_UserCusDlg DIALOGEX 0, 0, 237, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "使用说明"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,61,125,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,125,50,14
+    LTEXT           "",IDC_STATIC1,39,25,155,77
+    GROUPBOX        "",IDC_STATIC,34,16,171,91
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 10,0,0,422
+ PRODUCTVERSION 10,0,0,422
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Goyoo"
+            VALUE "FileDescription", "个人u盘客户端"
+            VALUE "FileVersion", "10, 0, 0, 422"
+            VALUE "InternalName", "UDiskClient.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "UDiskClient.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "10, 0, 0, 422"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_UDISKCLIENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+
+    IDD_LOGDialog, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_RigDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_ReSetDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_UserCusDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "pop1"
+    BEGIN
+        POPUP "上传"
+        BEGIN
+            MENUITEM "文件",                          ID_PostFile
+            MENUITEM "目录",                          ID_PostDir
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "下载",                          ID_DowndFile
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                          ID_DeleteFile
+        MENUITEM SEPARATOR
+        MENUITEM "列表显示",                        ID_VLIST
+        MENUITEM "图标显示",                        ID_VICON
+    END
+    POPUP "pop2"
+    BEGIN
+        MENUITEM "下载",                          ID_DowndCommFile
+    END
+    POPUP "pop3"
+    BEGIN
+        MENUITEM "游戏读档",                        IDM_ReadRecord
+        MENUITEM "删除存档",                        IDM_DeleteRecord
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 UDiskClient(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\UDiskClient.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

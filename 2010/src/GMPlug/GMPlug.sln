@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameMgr10", "GMPlug.vcproj", "{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_ACE|Win32 = Release_ACE|Win32
+		Release_Mask_Command|Win32 = Release_Mask_Command|Win32
+		Release_test|Win32 = Release_test|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Debug|Win32.Build.0 = Debug|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_ACE|Win32.ActiveCfg = Release_ACE|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_ACE|Win32.Build.0 = Release_ACE|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_Mask_Command|Win32.ActiveCfg = Release_Mask_Command|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_Mask_Command|Win32.Build.0 = Release_Mask_Command|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_test|Win32.ActiveCfg = Release_test|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release_test|Win32.Build.0 = Release_test|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release|Win32.ActiveCfg = Release|Win32
+		{0AAFF58F-6151-4CCF-8E0A-9691E6FEE4AD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

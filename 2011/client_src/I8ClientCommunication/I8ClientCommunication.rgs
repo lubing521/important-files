@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'I8ClientCommunication'
+		'I8ClientCommunication.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

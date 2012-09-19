@@ -1,0 +1,5 @@
+LIBRARY  "DbEngine.dll"
+EXPORTS
+	CreateDatabase	@1	NONAME
+	CreateSysOpt	@2	NONAME
+	CreateLogger	@3	NONAME

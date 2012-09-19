@@ -1,0 +1,26 @@
+HKCR
+{
+	I8ClientCommunication.StartupClient.1 = s 'StartupClient Class'
+	{
+		CLSID = s '{E450EB6E-4DD3-4EAF-99CB-A778B97B1C39}'
+	}
+	I8ClientCommunication.StartupClient = s 'StartupClient Class'
+	{
+		CLSID = s '{E450EB6E-4DD3-4EAF-99CB-A778B97B1C39}'
+		CurVer = s 'I8ClientCommunication.StartupClient.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E450EB6E-4DD3-4EAF-99CB-A778B97B1C39} = s 'StartupClient Class'
+		{
+			ProgID = s 'I8ClientCommunication.StartupClient.1'
+			VersionIndependentProgID = s 'I8ClientCommunication.StartupClient'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{64412DCA-F794-4265-A06B-121EB500EE4A}'
+		}
+	}
+}

@@ -1,0 +1,3 @@
+LIBRARY	"BootRun"
+EXPORTS
+	CreatePlug		@1

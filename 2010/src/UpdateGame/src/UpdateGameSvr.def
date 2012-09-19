@@ -1,0 +1,3 @@
+LIBRARY  "UpdateGameSvr.dll"
+EXPORTS
+	CreatePlug				@1

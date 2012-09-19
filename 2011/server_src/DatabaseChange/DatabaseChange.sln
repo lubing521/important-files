@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatabaseChange", "DatabaseChange\DatabaseChange.vcproj", "{BBBF093A-50EB-4308-A2D5-3E41D98F882A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBF093A-50EB-4308-A2D5-3E41D98F882A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBBF093A-50EB-4308-A2D5-3E41D98F882A}.Debug|Win32.Build.0 = Debug|Win32
+		{BBBF093A-50EB-4308-A2D5-3E41D98F882A}.Release|Win32.ActiveCfg = Release|Win32
+		{BBBF093A-50EB-4308-A2D5-3E41D98F882A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

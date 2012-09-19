@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogRpt", "LogRpt.vcproj", "{BBFEF3EA-F1F7-43B1-B0C0-EF60628FB1AA}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFEF3EA-F1F7-43B1-B0C0-EF60628FB1AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBFEF3EA-F1F7-43B1-B0C0-EF60628FB1AA}.Debug|Win32.Build.0 = Debug|Win32
+		{BBFEF3EA-F1F7-43B1-B0C0-EF60628FB1AA}.Release|Win32.ActiveCfg = Release|Win32
+		{BBFEF3EA-F1F7-43B1-B0C0-EF60628FB1AA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

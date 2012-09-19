@@ -1,0 +1,7 @@
+LIBRARY  "VirtualDisk.dll"
+EXPORTS
+	CreatePlug		@1
+	StartServer		@2
+	StopServer		@3
+	GetVdiskInfo	@4
+	RefreshBuffer	@5

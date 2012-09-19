@@ -1,0 +1,12 @@
+LIBRARY  "UpdateGameCli.dll"
+EXPORTS
+	FastCopy_Start			@1	NONAME
+	FastCopy_End			@2	NONAME
+	FastCopy_Cancel			@3	NONAME
+	FastCopy_GetSpeedEx		@4	NONAME
+	CreatePlug				@5
+	CreatePlug2				@6	NONAME
+	UG_StartUpdate			@7	NONAME
+	UG_StopUpdate			@8	NONAME
+	UG_GetUpdateStatus		@9	NONAME
+	

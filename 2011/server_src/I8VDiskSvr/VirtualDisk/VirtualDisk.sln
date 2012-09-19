@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualDisk", "VirtualDisk.vcproj", "{C25DAE81-F91D-47C9-A810-000D61A0AE9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualDiskDll", "..\VirtualDiskDll\VirtualDiskDll.vcproj", "{AFB14919-C314-49E1-8961-FBC0667B567E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Debug|Win32.Build.0 = Debug|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Release|Win32.ActiveCfg = Release|Win32
+		{C25DAE81-F91D-47C9-A810-000D61A0AE9D}.Release|Win32.Build.0 = Release|Win32
+		{AFB14919-C314-49E1-8961-FBC0667B567E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFB14919-C314-49E1-8961-FBC0667B567E}.Debug|Win32.Build.0 = Debug|Win32
+		{AFB14919-C314-49E1-8961-FBC0667B567E}.Release|Win32.ActiveCfg = Release|Win32
+		{AFB14919-C314-49E1-8961-FBC0667B567E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

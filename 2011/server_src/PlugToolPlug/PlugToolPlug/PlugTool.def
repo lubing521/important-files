@@ -1,0 +1,3 @@
+LIBRARY	"PlugToolPlug"
+EXPORTS
+	CreateSvrPlug	;NONAME

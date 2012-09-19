@@ -1,0 +1,493 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\BarOnline.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BarOnline.ico"
+IDI_ONLINE_PROT         ICON                    "res\\1.ico"
+IDI_ONLINE_NOPROT       ICON                    "res\\2.ico"
+IDI_NOONLINE_PROT       ICON                    "res\\3.ico"
+IDI_NOONLINE_NOPROT     ICON                    "res\\4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 BarOnline"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "BarOnline,  2010 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Goyoo  2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_DLG_GONGGAO DIALOGEX 0, 0, 322, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "欢迎光临本网吧!",IDC_WELCOME,22,7,79,14
+    PUSHBUTTON      "公告内容",IDC_CONTEXT,36,28,50,14
+    PUSHBUTTON      "",IDC_CLOSE,169,7,50,14
+    PUSHBUTTON      "",IDC_NBINFO,37,178,79,14
+END
+
+IDD_DLG_UPTPRG DIALOGEX 0, 0, 329, 183
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_CAPTION,17,7,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "游戏插件/辅助工具",IDC_GAMEPLUG,21,23,50,14
+    PUSHBUTTON      "",IDC_PLUG,71,75,50,14
+    CONTROL         "",IDC_PROGRESS,"Button",BS_OWNERDRAW | WS_TABSTOP,17,103,50,14
+    PUSHBUTTON      "状态:",IDC_STATUS,7,122,142,14
+    PUSHBUTTON      "剩余时间:",IDC_TIME,201,124,92,14
+    PUSHBUTTON      "",IDC_RUN,13,145,50,14
+    PUSHBUTTON      "",IDC_SEARCH,64,145,50,14
+    PUSHBUTTON      "",IDC_BUYCARD,115,145,50,14
+    PUSHBUTTON      "",IDC_VIDEOSKILL,166,145,50,14
+    PUSHBUTTON      "",IDC_MODIFY,217,145,50,14
+    PUSHBUTTON      "",IDC_FAVORITE,268,145,50,14
+    PUSHBUTTON      "",IDC_CLOSE,177,12,50,14
+    CONTROL         "",IDC_LIST_GAME,"SysListView32",LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSCROLL | WS_TABSTOP,132,90,159,23
+END
+
+IDD_DLG_SYSSET DIALOGEX 0, 0, 332, 313
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "系统设置",IDC_CAPTION,5,0,80,14,BS_FLAT
+    PUSHBUTTON      "服务器IP地址:",IDC_SVR_IP,7,19,80,14
+    EDITTEXT        IDC_EDIT_SVR_IP,141,25,40,14,ES_AUTOHSCROLL | NOT WS_BORDER
+    PUSHBUTTON      "分区还原保护设置:",IDC_AREA_SET,7,42,80,14
+    PUSHBUTTON      "未保护分区列表:",IDC_AREA_UNPROT,7,68,80,14
+    PUSHBUTTON      "己保护分区列表:",IDC_AREA_PROT,218,74,80,14
+    LISTBOX         IDC_LEFT,29,157,84,101,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加保护>",IDC_ADD,138,164,50,14
+    PUSHBUTTON      "全部保护>>",IDC_ADDALL,138,185,50,14
+    PUSHBUTTON      "取消保护<",IDC_DEL,138,209,50,14
+    PUSHBUTTON      "全部取消<<",IDC_DELALL,138,233,50,14
+    LISTBOX         IDC_RIGHT,207,157,84,101,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDOK,157,276,50,14
+    PUSHBUTTON      "",IDCANCEL,239,275,50,14
+    PUSHBUTTON      "",IDC_CLOSE,252,7,50,14
+    PUSHBUTTON      "",IDC_BTN_CHECKDISK,74,275,50,14
+END
+
+IDD_DLG_HOTGAME DIALOGEX 0, 0, 481, 279
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_TOP_LINE,7,19,403,14
+    PUSHBUTTON      "",IDC_TITLE1,23,51,50,14
+    PUSHBUTTON      "请使用键盘←↑→↓查看更多游戏",IDC_COMMENT1,122,55,145,14,NOT WS_VISIBLE
+    PUSHBUTTON      "本网吧共有游戏",IDC_GAME1,281,53,69,14
+    PUSHBUTTON      "12345",IDC_NUMBER,350,53,27,14
+    PUSHBUTTON      "款",IDC_GAME2,377,53,18,14
+    CONTROL         "",IDC_LIST_GAME,"SysListView32",LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_OWNERDATA | WS_TABSTOP,143,120,159,90
+END
+
+IDD_DLG_FAVORITE DIALOGEX 0, 0, 239, 202
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "我的收藏夹",IDC_BTN_FAV,0,0,50,14
+    PUSHBUTTON      "",IDC_BTN_LINE,50,0,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE,99,0,94,14
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_LINESATROOT | WS_HSCROLL | WS_TABSTOP,21,61,123,102
+    PUSHBUTTON      "管理收藏夹",IDC_BTN_MANAGE,99,18,94,14
+END
+
+IDD_DLG_RBPOPADV DIALOGEX 0, 0, 316, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_CLOSE,233,11,35,14
+END
+
+IDD_DLG_UPTOPT DIALOGEX 0, 0, 219, 121
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "快速对比(对比文件)",IDC_RD_QUICK,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,35,133,9
+    CONTROL         "重新下载(删除所有文件重新下载)",IDC_RD_FORCE,"Button",BS_AUTORADIOBUTTON,30,55,149,9
+    PUSHBUTTON      "",IDOK,46,84,50,14
+    PUSHBUTTON      "",IDCANCEL,120,84,50,14
+    PUSHBUTTON      "",IDC_CLOSE,181,0,32,14
+END
+
+IDD_DLG_OPTLLOGIN DIALOGEX 0, 0, 268, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "管理员登陆",IDC_CAPTION,5,11,50,14
+    PUSHBUTTON      "请输入管理员密码:",IDC_TIP,91,42,80,14
+    EDITTEXT        IDC_PASSWORD,111,68,40,14,ES_PASSWORD | ES_AUTOHSCROLL | NOT WS_BORDER
+    PUSHBUTTON      "",IDOK,115,114,50,14
+    PUSHBUTTON      "",IDCANCEL,185,111,50,14
+    PUSHBUTTON      "",IDC_CLOSE,211,14,50,14
+END
+
+IDD_DLG_MESSAGE DIALOGEX 0, 0, 278, 146
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDOK,127,95,50,14
+    PUSHBUTTON      "",IDC_CLOSE,181,0,32,14
+    PUSHBUTTON      "提示:",IDC_TIP,3,4,32,14
+    PUSHBUTTON      "Button1",IDC_CONTENT,17,45,50,14
+END
+
+IDD_DLG_DOCK DIALOGEX 0, 0, 316, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_CHECKDISK DIALOGEX 0, 0, 365, 198
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "磁盘检测修复",IDC_BTN_TITLE,27,7,107,16
+    PUSHBUTTON      "现有磁盘",IDC_BTN_DRVLIST,28,26,107,16
+    PUSHBUTTON      "检测修复的磁盘",IDC_BTN_CHECKDRVLIST,226,26,107,16
+    LISTBOX         IDC_LST_LEFT,29,55,103,78,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加磁盘 >",IDC_BTN_ADD,139,57,75,16
+    PUSHBUTTON      "全部添加 >",IDC_BTN_ADDALL,140,76,74,16
+    LISTBOX         IDC_LST_RIGHT,226,52,103,78,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "< 取消磁盘",IDC_BTN_DEL,139,95,75,16
+    PUSHBUTTON      "< 全部取消",IDC_BTN_DELALL,140,114,74,16
+    PUSHBUTTON      "",IDC_BTN_CHECK,53,156,74,16
+    PUSHBUTTON      "",IDC_BTN_CANCEL,193,155,74,16
+END
+
+IDD_DLG_GONGGAO_TRANS DIALOGEX 0, 0, 316, 184
+STYLE DS_SETFONT | DS_FIXEDSYS
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_UPTPRG_TRANS DIALOGEX 0, 0, 316, 184
+STYLE DS_SETFONT | DS_FIXEDSYS
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 10,1,2,725
+ PRODUCTVERSION 10,1,2,725
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Goyoo"
+            VALUE "FileDescription", "BarOnline"
+            VALUE "FileVersion", "10, 1, 2, 725"
+            VALUE "InternalName", "BarOnline.exe"
+            VALUE "LegalCopyright", "Goyoo"
+            VALUE "OriginalFilename", "BarOnline.exe"
+            VALUE "ProductName", "I8Desk"
+            VALUE "ProductVersion", "10, 1, 2, 725"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_DLG_GONGGAO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DLG_UPTPRG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DLG_SYSSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 306
+    END
+
+    IDD_DLG_HOTGAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 474
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_DLG_FAVORITE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_DLG_RBPOPADV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DLG_UPTOPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DLG_OPTLLOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_DLG_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DLG_DOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DLG_CHECKDISK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_DLG_GONGGAO_TRANS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_DLG_UPTPRG_TRANS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY_MENU MENU 
+BEGIN
+    POPUP "TrayMenu"
+    BEGIN
+        MENUITEM "浏览器",                         ID_TRAY_BROWSE
+        MENUITEM "游戏大厅",                        ID_TRAY_GAMEROOM
+        MENUITEM "聊天工具",                        ID_TRAY_CHAT
+        MENUITEM "常用软件",                        ID_TRAY_SOFTWARE
+        MENUITEM "点卡商城",                        ID_TRAY_DOTCARD
+        MENUITEM "影视/音乐",                       ID_TRAY_VDMUSIC
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          ID_TRAY_EXIT
+    END
+    POPUP "ListMenu"
+    BEGIN
+        MENUITEM "9",                           ID_POP_HOLD
+        MENUITEM SEPARATOR
+        MENUITEM "运行游戏 ...",                    ID_POP_RUNGAME
+        MENUITEM "打开目录",                        ID_POP_OPENDIR
+        MENUITEM "相关搜索",                        ID_POP_SEARCHGAME
+        MENUITEM "收藏游戏",                        ID_POP_ADD_GAME_FAV
+        MENUITEM "保存进度",                        ID_POP_SAVE_PROGRESS
+        MENUITEM "读取进度",                        ID_POP_LOAD_PROGRESS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTTPERROR           HTML                    "res\\HttpError.html"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+IDR_JPG_404BTM          JPG                     "res\\404_btm.jpg"
+IDR_JPG_404MID          JPG                     "res\\404_mid.jpg"
+IDR_JPG_404PIC          JPG                     "res\\404_pic.jpg"
+IDR_JPG_404TOP          JPG                     "res\\404_top.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 BarOnline(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\BarOnline.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
